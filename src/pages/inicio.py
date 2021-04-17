@@ -103,8 +103,6 @@ def main():
     )
 
     # utils.gen_title(title="Como podemos te <b>ajudar</b>?", subtitle="")
-    simulador="Simule o retorno"
-    simuladorsub = "Informe os dados da sua rede ou escola e calcule quantas turmas podem voltar em segurança e quais materiais você precisa providenciar."
     title1="Quem Somos"
     sub1="Reunimos organizações atuantes nas áreas de educação, saúde e análise de dados para criar este conteúdo técnico, fundamentado em fontes nacionais e internacionais, para apoiar gestores escolares neste desafio."
     title2="Dúvidas Frequentes"
@@ -113,27 +111,6 @@ def main():
     # sub3="Saiba mais sobre os envolvidos e o desenvolvimento da plataforma."
     st.write(
         f"""
-        <div class="conteudo row" style="margin-top: 30px; margin-right:0px; margin-left:0px;">
-            <div class="card-plan" style="width:100%;">
-                <div>
-                    <div style="font-size:1.3rem; padding:5px; text-align: center; border-top-right-radius: 0.8rem; border-top-left-radius: 0.8rem; background:#2b14ff; color:white;">
-                    {simulador}
-                    </div>
-                    <div style="margin:10px">
-                        <div class="card-title">
-                        {simuladorsub}
-                        </div>
-                        <div>
-                            <div align="center" style="padding-top:15px; padding-bottom: 15px;">
-                                <a href='{urlpath}?page=simulation' target="_self">
-                                <button class="button"; style="border-radius: 0.8rem;">Simule já ></button><br>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="conteudo row" style="margin-right:0px; margin-left:0px;">
            <div class="col card-plan" style="width:100%; margin-top:15px; margin-botton:15px;">
                 <div>
